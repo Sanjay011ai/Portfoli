@@ -24,7 +24,7 @@ export default function Hero({ scanComplete = false }: { scanComplete?: boolean 
         className="relative flex flex-col items-center w-full"
       >
         <motion.h1 
-          className="text-6xl md:text-9xl font-black mb-6 tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-600 glitch drop-shadow-[0_0_30px_rgba(255,0,60,0.2)]"
+          className="text-6xl md:text-9xl font-black mb-6 tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 glitch-green drop-shadow-[0_0_30px_rgba(0,255,159,0.5)]"
           data-text="SANJAY V"
           variants={textScramble}
           initial="hidden"

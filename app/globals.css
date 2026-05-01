@@ -82,6 +82,33 @@ body {
   100% { clip: rect(23px, 9999px, 93px, 0); }
 }
 
+/* Green Glitch Effect */
+.glitch-green {
+  position: relative;
+}
+.glitch-green::before,
+.glitch-green::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--background);
+  color: var(--color-security);
+  -webkit-text-fill-color: var(--color-security);
+}
+.glitch-green::before {
+  left: 3px;
+  text-shadow: -2px 0 #00ff9f;
+  animation: glitch-anim 0.3s infinite linear alternate-reverse;
+}
+.glitch-green::after {
+  left: -3px;
+  text-shadow: 2px 0 #008b5e;
+  animation: glitch-anim-2 0.25s infinite linear alternate-reverse;
+}
+
 /* Glassmorphism utility */
 .glass {
   background: rgba(5, 5, 5, 0.6);
