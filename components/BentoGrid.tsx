@@ -12,11 +12,11 @@ export default function BentoGrid() {
     { 
       id: 1,
       company: "Nexudo", 
-      role: "Associative SaaS",
+      role: "Data Analyst Intern",
       status: "ACTIVE",
       points: [
-        "Architected scalable sales analytics systems.",
-        "Engineered comprehensive dashboards for deep data insights.",
+        "Built scalable data analytics pipelines for efficient data processing and analysis.",
+        "Created dynamic dashboards delivering actionable insights for business decision-making",
       ]
     },
     { 
