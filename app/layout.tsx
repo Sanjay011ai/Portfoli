@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sanjay V | Cyber-Sentinel OS",
+  title: "Sanjay V",
   description: "Tactical Operating System Dashboard for Sanjay V, Full-Stack Engineer and AI Specialist.",
 };
 
